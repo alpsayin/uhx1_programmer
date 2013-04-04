@@ -17,7 +17,8 @@
 
 void usage(void)
 {
-	printf("uhx1_program device_name\n");
+	printf("uhx1_programmer device_name\n");
+	printf("device_name : i.e. /dev/ttyUSB0\n");
 	printf("Build Date: %s\n", BUILD);
 }
 void print_time(char* prefix)
